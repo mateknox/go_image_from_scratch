@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+body {
+    background: url('../background_6-min.jpg') no-repeat center center fixed;
+    background-size: cover, cover;
+    overflow: hidden;
+}
+
+.box {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 35em;
+  height: 12em;
+  top: 0; left: 0; bottom: 0; right: 0;
+  position: absolute;
+  overflow: auto;
+  margin: auto;
+}
+
+.name {
+  font-family: 'JetBrains Mono';
+  color: rgba(225, 225, 225, 0.7);
+  text-align: center;
+  font-size:5em;
+}
+
+.fa-brands {
+  color: rgba(225, 225, 225, 0.7);
+}
+
+.icons   {
+  font-family: 'JetBrains Mono';
+  text-align: center;
+  font-size: 3em;
+  line-height: 0.3em;
+}
+
+@media only screen and (orientation: portrait) {
+    .box {
+        top: 70%; left: 0; bottom: 0; right: 0;
+    }
+}
