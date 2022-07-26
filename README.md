@@ -1,5 +1,6 @@
 # Go docker image from scratch
 Simple go app with static content, that can be build into a "scratch" image.
+Final image is 7.52MB.
 
 # Usage
 **1)** docker build . -t go_image:1.0.0
