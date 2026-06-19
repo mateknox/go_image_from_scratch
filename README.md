@@ -1,10 +1,9 @@
-# Go docker image from scratch
-Simple go app with static content, that can be build into a "scratch" image.
-Final image is 7.52MB.
+# Ultra-lean Go Server Container
 
-# Usage
-**1)** docker build . -t go_image:1.0.0
+A lightweight Go web server serving static files embedded directly within a compiled binary, deployed inside a minimized `scratch` container footprint.
 
-**2)** docker run -d -p 5555:5555 <IMAGE_ID>
+## Local Execution
 
-**3)** Go to 127.0.0.1:5555 to check if app is running.
+1. Run the server locally:
+   ```bash
+   go run main.go
